@@ -16,6 +16,6 @@ public class EmailSendApplication {
 	}
 	@EventListener(ApplicationReadyEvent.class)
 public void trigger(){
-		emailservice.sendEmail("satabdimohanty24@gmail.com","HELLO SPRING MAILSENDER","MAIL SENDER SUBJECT");
+		emailservice.sendEmail("satabdimohanty24@gmail.com","good morning everyone","THIS IS THE SUBJECT");
 }
 }
